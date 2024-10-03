@@ -7,3 +7,6 @@ values_list_2 = [782, 'пампарам']
 print_params(*values_list)
 print_params(**values_dic)
 print_params(*values_list_2, 42)
+print_params(b = 25)
+print_params(c = [1,2,3])
+print_params()
